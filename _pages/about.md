@@ -9,10 +9,7 @@ redirect_from:
 
 I'm a freshman from [School of JXUST]([[https://eecs.pku.edu.cn/]. My major is Information Security in jxust.
 
-You can find my CV here: [XX's Curriculum Vitae](../assets/Curriculum_Vitae.pdf).
-
 [Email](2158735426@qq.com) / [Github](https://github.com/Angelsembrace) / [CSDN](https://blog.csdn.net/2501_93814725?type=blog)
-————————————————
 
  You can fork [this template](https://github.com/Angelsembrace/Angelsembrace.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 
