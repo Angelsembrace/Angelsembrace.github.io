@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello everyone! I'm XXX, a freshman majoring in Information Security at Jiangxi University of Science and Technology (Class of 2025).  
+Hello everyone! I'm Xu hongling, a freshman majoring in Information Security at Jiangxi University of Science and Technology (Class of 2025).  
 This is my first personal homepage in college, used to record my learning journey, growth, and projects.  
 I'm passionate about cybersecurity, programming, and open-source technologies, aiming to become a cybersecurity engineer or developer in the future.
 
