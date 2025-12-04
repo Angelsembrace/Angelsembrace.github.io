@@ -1,82 +1,84 @@
 # Welcome to Jekyll!
 # Basic Site Settings
-locale: "zh-CN"  # 改为中文显示
-site_theme: "default"  # 保持默认主题
-title: "你的名字 | 信息安全个人主页"  # 网站标题
-title_separator: "-"
-name: &name "你的名字"  # 你的姓名（用于多处引用）
-description: &description "江西理工大学信息安全专业大一新生 | 学习网络安全与编程"  # 网站描述
-url: "https://your-github-username.github.io"  # 替换为你的GitHub Pages链接
-baseurl: ""  # 子路径（若无则留空）
-repository: "your-github-username/your-github-username.github.io"  # 替换为你的仓库路径（格式：用户名/仓库名）
+locale                   : "zh-CN"  # 改为中文显示
+site_theme               : "default"  # 保持默认主题（不改变网页形式）
+title                    : "Angelsembrace | 信息安全个人主页"  # 标题含昵称
+title_separator          : "-"
+name                     : &name "Angelsembrace"  # 统一引用昵称
+description              : &description "江西理工大学信息安全专业大一新生 | 学习网络安全与C/C++编程"  # 专业相关描述
+url                      : "https://your-github-username.github.io"  # 替换为你的GitHub Pages链接
+baseurl                  : ""  # 保持默认子路径
+repository               : "your-github-username/your-github-username.github.io"  # 替换为你的仓库路径
 
 # Site Author (侧边栏个人信息)
 author:
-  avatar: "images/Angelsembrace.png"  # 头像路径（确保图片已上传到images文件夹）
-  name: "你的名字"  # 真实姓名
-  pronouns: ""  # 性别代词（如不需要可留空）
-  bio: "信息安全专业大一新生 @ 江西理工大学"  # 简短介绍
-  location: "中国 赣州"  # 地点
-  employer: "Jiangxi University of Science and Technology"  # 学校名称（保持英文）
-  uri: ""  # 个人主页链接（若无则留空）
-  email: "your.email@example.com"  # 替换为你的邮箱
-  # 学术平台链接（目前无需填写，后续可补充）
-  academia: ""
-  arxiv: ""
-  googlescholar: ""
-  # 社交平台链接（填写GitHub用户名）
-  github: "your-github-username"  # 替换为你的GitHub用户名
-  # 其他社交平台（暂时留空，后续可添加）
-  twitter: ""
-  linkedin: ""
-  weibo: ""
+  avatar           : "images/Angelsembrace.png"  # 保留原头像路径
+  name             : "Angelsembrace"  # 使用昵称
+  pronouns         : ""  # 保持默认（空）
+  bio              : "信息安全专业大一新生 @ 江西理工大学"  # 专业身份
+  location         : "中国 赣州"  # 地理位置
+  employer         : "Jiangxi University of Science and Technology"  # 学校英文名（保持默认格式）
+  uri              : ""  # 暂留空
+  email            : "2158735426@qq.com"  # 保留你的邮箱
+  
+  # 学术平台（暂不需要，保持默认空值）
+  academia         : ""
+  arxiv            : ""
+  googlescholar    : ""
+  # 社交平台（仅保留GitHub）
+  github           : "your-github-username"  # 替换为你的GitHub用户名
+  # 其他社交平台（全部留空，避免无关链接）
+  twitter          : ""
+  linkedin         : ""
+  weibo            : ""
 
-# Publication Category (暂时不需要，保持默认)
+# Publication Category (保持默认，不改变网页结构)
 publication_category:
   books:
-    title: #'Books'
+    title: #'Books'  # 注释掉未使用的分类
   manuscripts:
     title: #'Journal Articles'
   conferences:
     title: #'Conference Papers'
 
-# Site Settings (保持默认，无需修改)
-teaser: # filename of teaser fallback teaser image
-breadcrumbs: #false
-words_per_minute: #160
-future: #true
-read_more: #"disabled"
-talkmap_link: #false
+# Site Settings (保持默认，确保网页形式不变)
+teaser                   :  
+breadcrumbs              : false
+words_per_minute         : 160
+future                   : true
+read_more                : "disabled"
+talkmap_link             : false
 comments:
-  provider: # false
+  provider               : false
 
-# SEO Related (保持默认，无需修改)
-google_site_verification:
-bing_site_verification:
-alexa_site_verification:
-yandex_site_verification:
+# SEO Related (保持默认)
+google_site_verification :
+bing_site_verification   :
+alexa_site_verification  :
+yandex_site_verification :
 twitter:
-  username: #&twitter
+  username               : #&twitter
 facebook:
-  username:
-  app_id:
-  publisher:
-og_image:
-og_description: #&description
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 :
+og_description           : #&description
 
-# Social Sharing (保持默认，无需修改)
+# Social Sharing (保持默认)
 social:
-  type: # Person
-  name: # *name
+  type                   : # Person
+  name                   : # *name
   links:
 
-# Analytics (暂时不需要，保持默认)
+# 以下配置（从Analytics到末尾）保持原样，不修改任何结构和功能参数
+# Analytics
 analytics:
-  provider: #"false"
+  provider               : "false"
   google:
-    tracking_id:
+    tracking_id          :
 
-# Reading Files (保持默认，无需修改)
+# Reading Files
 include:
   - .htaccess
   - _pages
@@ -114,14 +116,14 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-# Conversion (保持默认，无需修改)
+# Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
-# Markdown Processing (保持默认，无需修改)
+# Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
@@ -132,7 +134,7 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-# Collections (保持默认，无需修改)
+# Collections (保持默认结构)
 collections:
   teaching:
     output: true
@@ -147,7 +149,7 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-# Defaults (保持默认，无需修改)
+# Defaults (保持默认)
 defaults:
   - scope:
       path: ""
@@ -197,16 +199,16 @@ defaults:
       author_profile: true
       share: true
 
-# Sass/SCSS (保持默认，无需修改)
+# Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed
 
-# Outputting (保持默认，无需修改)
+# Outputting
 permalink: /:categories/:title/
 timezone: Etc/UTC
 
-# Plugins (保持默认，无需修改)
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-gist
@@ -215,7 +217,7 @@ plugins:
   - jekyll-redirect-from
   - jemoji
 
-# Archives (保持默认，无需修改)
+# Archives
 category_archive:
   type: liquid
   path: /categories/
@@ -223,7 +225,7 @@ tag_archive:
   type: liquid
   path: /tags/
 
-# HTML Compression (保持默认，无需修改)
+# HTML Compression
 compress_html:
   clippings: all
   ignore:
